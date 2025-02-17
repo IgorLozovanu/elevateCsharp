@@ -70,6 +70,7 @@ namespace SchoolHrAdministration
             switch (employeeType)
             {
                 case EmployeeType.Teacher:
+                    // employee = new Teacher { Id = id, FirstName = firstName, LastName = lastName, Salary = salary };
                     employee = FactoryPattern<IEmployee, Teacher>.GetInstance();
                     break;
                 case EmployeeType.HeadOfDepartment:
