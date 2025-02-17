@@ -1,0 +1,29 @@
+  JAVA 1995
+  Programming language very close to metal, this means programmers can manage prorammaticly memory.
+  JVM = java virtual machine, compiles java code; gives the possibility to:
+  - write once and run anywhere
+  - automatic memory manage
+
+  VB6 1998
+  Event driven programming language developed for Microsoft component object model COM.
+  Not a fully object oriented and thighly coupled with VB ide.
+
+  .NET FRAMEWORK 2002
+  It is a massive upgrade for VB6 and common language runtime (CLR) was very similar to JVM.
+  It was running only on Windows and it allowed an automatic memory manage.
+  Similarities between JVM nad CLR:
+  - are VMs
+  - include garbage cllection
+  - manage stack based operations
+  - managing exception handling
+
+  Mono 2004: project lead by Xamarin, subsidiary of Microsoft and .NET FRAMEWORK, for cross platform and 
+  linux application developping.
+  Mono provided an implementation of .net which allowed c# code to be compiled and implemented on multiple
+  platforms.
+  The successor of Mono is .NET Core realised in 2019.
+
+  .NET standard a set of APIs that all .NET platform have to implement (.net framework, .net core, xamarin)
+  it was introduced to unify .net platforms and avoid future fragmentation.
+
+  .NET 5 was developed for having a framework to rule them all and on every platform.
