@@ -4,6 +4,17 @@ namespace SchoolHrAdministration
 {
     class Program
     {
+        /*
+         * Abstraction makes the concept more difficult. The most abstract advanced concepts are used to achieve:
+         * - code reuse
+         * - cleaner code
+         * - extensibility
+         * - flexibility
+         * - ease code maintenance
+         * - separation of concerns
+         * - effective unit testing
+         * - better performance and efficiency
+         */
         static void Main(string[] args)
         {
             List<IEmployee> employees = new List<IEmployee>();
