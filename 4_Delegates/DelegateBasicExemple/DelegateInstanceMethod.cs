@@ -1,22 +1,19 @@
-﻿namespace Delegate
+﻿namespace DelegateBasicExemple
 {
-    class MultiDelegate
+    class DelegateInstanceMethod
     {
-        delegate void LogDel(string text);
+        delegate void LogDel(string text); 
 
         public static void Execute()
         {
-            // Multicast delegate
+            // Instance method delegation
             Log log = new Log();
-
-            LogDel LogTextToScreenDel = new LogDel(log.LogTextToScreen);
-            LogDel LogTextToFileDel = new LogDel(log.LogTextToFile);
-            LogDel multilogDel = LogTextToScreenDel + LogTextToFileDel;
+            LogDel logDel = new LogDel(log.LogTextToScreen);
 
             Console.Write("Enter your name: ");
             string name = Console.ReadLine();
 
-            multilogDel(name);
+            logDel(name);
         }
     }
 
